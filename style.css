@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+.header {
+    font-size: 30px;
+    height: 250px;
+    color: white;
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.subtitle a {
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.chart {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#allYearsChart,
+#allYearsPercentageChart {
+    height: 700px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
