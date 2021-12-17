@@ -1,4 +1,56 @@
-<html>
-  <head></head>
-  <body>just testing if this works</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.3.0-next.1/billboard.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.3.0-next.1/billboard.min.css">
+    <style>
+        #chart {
+            width: 1200px;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart"></div>
+    <script>
+        var chart = bb.generate({
+        bindto: "#chart",
+        data: {
+            type: "line",
+            x: "x",
+            columns: [
+	            ["x", "2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                ["Taehyung/Jungkook", 46, 552, 2058, 3943, 6009, 7057, 8846],
+                ["Yoongi/Jimin", 79, 741, 2393, 3803, 5503, 5350, 5591],
+                ["Jin/Namjoon",24,329,1420,3045,4526,5245,5778],
+                ["Jimin/Jungkook",22,416,1733,3053,4436,5208,7473],
+                ["Yoongi/Hoseok",27,261,1134,2552,3554,3729,4232],
+                ["Yoongi/Jungkook",6,126,916,1459,2685,3025,3375],
+                ["Taehyung/Jimin",10,270,889,1731,2286,2917,4098],
+                ["Yoongi/Taehyung",21,106,567,1188,1874,2349,2857],
+                ["Namjoon/Jimin",3,78,368,649,1101,1748,1836],
+                ["Jin/Yoongi",36,247,630,1032,1280,1577,2001],
+                ["Namjoon/Jungkook",3,28,140,382,869,1576,2233],
+                ["Yoongi/Namjoon",9,145,362,703,1145,1458,1904],
+                ["Jin/Jungkook",6,61,318,615,863,1297,2065],
+                ["Jin/Taehyung",9,73,188,409,730,1233,1625],
+                ["Hoseok/Jimin",10,151,490,700,1002,1209,1246],
+                ["Hoseok/Taehyung",22,171,550,728,922,1087,1227],
+                ["Namjoon/Taehyung",1,38,192,367,456,971,964],
+                ["Hoseok/Jungkook",5,24,196,420,646,954,1258],
+                ["Hoseok/Namjoon",3,32,138,383,710,992,1171],
+                ["Jin/Jimin",6,46,200,351,508,698,804],
+                ["Jin/Hoseok",0,35,101,277,495,670,857],
+            ]
+        },
+        axis: {
+            x: {
+                type: "category",
+            }
+        },
+    });
+    </script>
+</body>
 </html>
+
