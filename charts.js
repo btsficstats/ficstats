@@ -196,6 +196,9 @@ var numbercomparechart = bb.generate({
             ratio: .75,
         },
     },
+    legend: {
+        position: "right"
+    },
     axis: {
         rotated: true,
         x: {
@@ -268,5 +271,42 @@ var number2021piechart = bb.generate({
         padding: {
             bottom: 10
         }
+    }
+});
+
+var member2021 = bb.generate({
+    bindto: "#member2021",
+    data: {
+        type: "bar",
+        x: "x",
+        columns: [
+            ["x", "jungkook", "jimin", "taehyung", "yoongi", "seokjin", "namjoon", "hoseok"],
+            ["2021", 22285, 17597, 17059, 16834, 12648, 11677, 8276],
+        ],
+        labels: true,
+    },
+    bar: {
+        width: {
+            ratio: .85,
+        },
+        padding: 3,
+    },
+    axis: {
+        x: {
+            type: "category",
+        },
+        y: {
+            label: "number of fics"
+        }
+    },
+    legend: {
+        show: false,
+    },
+    tooltip: {
+        show: false,
+    },
+    title: {
+        text: 'Number of fics per member 2021',
+        position: 'left',
     }
 });
