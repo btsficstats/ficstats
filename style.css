@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 * {
     font-family: 'Roboto';
     font-weight: 300;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -13,10 +11,27 @@ a {
 
 body {
     background-color: #fcfcfc;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+text.bb-title {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.strong {
+    font-weight: 500;
 }
 
 .header {
-    font-size: 30px;
+    font-size: 2.5em;
     height: 250px;
     color: white;
     background-color: #f9c5d1;
@@ -26,10 +41,11 @@ body {
     justify-content: center;
     margin-bottom: 30px;
     flex-direction: column;
+    width: 100%;
 }
 
 .subtitle {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .subtitle a {
@@ -38,16 +54,28 @@ body {
 }
 
 .chart {
-    margin-top: 15px;
+    margin-top: 40px;
     width: 100%;
 }
 
 #allYearsChart,
 #allYearsPercentageChart {
-    height: 700px;
+    min-height: 700px;
 }
 
 .container {
-    width: 1200px;
+    width: 80%;
     margin: auto;
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
 }
