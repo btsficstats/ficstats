@@ -6,7 +6,8 @@ var totalnumbers = bb.generate({
         columns: [
             ["x", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
             ["Number of fics", 370, 3444, 12286, 21253, 32032, 37625, 47573, 42915],
-        ]
+        ],
+        labels: true,
     },
     axis: {
         x: {
@@ -20,7 +21,7 @@ var totalnumbers = bb.generate({
         show: false,
     },
     tooltip: {
-        order: 'desc',
+        show: false,
     },
     title: {
         text: 'Number of fics per year',
@@ -64,7 +65,9 @@ var allyearschart = bb.generate({
             label: "year"
         },
         y: {
-            label: "number of fics"
+            label: "number of fics",
+            min: 0,
+            padding: 0,
         }
     },
     legend: {
@@ -118,7 +121,9 @@ var allyearspercentagechart = bb.generate({
             label: "year"
         },
         y: {
-            label: "% of fics"
+            label: "% of fics",
+            min: 0,
+            padding: 0,
         }
     },
     legend: {
@@ -308,5 +313,94 @@ var member2021 = bb.generate({
     title: {
         text: 'Number of fics per member 2021',
         position: 'left',
+    }
+});
+
+var ot32021 = bb.generate({
+    bindto: "#ot32021",
+    data: {
+        type: "bar",
+        x: "x",
+        columns: [
+            ["x", "jimin tae jk", "yoongi hoseok jimin", "yoongi hoseok joon", "jin hoseok joon", "yoongi tae jk", "yoongi hoseok tae", "jin yoongi jk", "jin joon jk", "yoongi joon jk", "yoongi jimin jk", "jin tae jk", "jin yoongi joon", "joon jimin jk", "yoongi jimin tae", "jin yoongi hoseok", "hoseok jimin tae", "jin joon tae", "hoseok jimin jk", "jin jimin tae", "joon jimin tae", "yoongi joon jimin", "hoseok tae jk", "joon tae jk", "jin yoongi tae", "jin hoseok jk", "jin joon jimin", "jin jimin jk", "jin hoseok tae", "yoongi hoseok jk", "jin yoongi jimin", "jin hoseok jimin", "hoseok joon jk", "hoseok joon tae", "yoongi joon tae", "hoseok joon jimin"],
+            ["2021", 631, 203, 174, 118, 106, 101, 100, 99, 97, 95, 73, 73, 62, 61, 61, 54, 53, 51, 50, 47, 46, 45, 42, 42, 41, 40, 39, 37, 35, 33, 30, 26, 21, 18, 17],
+        ],
+        order: 'asc',
+        labels: true,
+    },
+    bar: {
+        width: {
+            ratio: .85,
+        },
+        padding: 3,
+    },
+    axis: {
+        rotated: true,
+        x: {
+            type: "category",
+            tick: {
+                width: 150
+            }
+        },
+        y: {
+            label: "number of fics",
+        }
+    },
+    legend: {
+        show: false,
+    },
+    tooltip: {
+        show: false,
+    },
+    title: {
+        text: 'Number of ot3 fics 2021',
+        position: 'left',
+        padding: {
+            bottom: 10
+        }
+    }
+});
+
+var relativegrowth = bb.generate({
+    bindto: "#relativegrowth",
+    data: {
+        type: "bar",
+        x: "x",
+        columns: [
+            ["x", "taejin", "2seok", "jinkook", "yoonjin", "jinmin", "namgi", "taekook", "namkook", "namseok", "vmon", "jikook", "yoonmin", "yoonkook", "vmin", "vhope", "minjoon", "yoonseok", "junghope", "namjin", "jihope", "taegi"],
+            ["growth", 30.02, 29.09, 23.74, 16.17, 15.96, 11.15, -0.37, -2.70, -3.63, -4.10, -6.55, -7.09, -8.66, -8.89, -11.28, -12.15, -12.46, -12.85, -13.65, -15.75, -21.66]
+        ],
+        order: 'asc',
+        labels: true,
+    },
+    bar: {
+        width: {
+            ratio: .85,
+        },
+        padding: 3,
+    },
+    axis: {
+        rotated: true,
+        x: {
+            type: "category",
+        },
+        y: {
+            label: "%",
+            min: -35,
+            max: 35
+        }
+    },
+    legend: {
+        show: false,
+    },
+    tooltip: {
+        show: false,
+    },
+    title: {
+        text: 'Relative growth 2021 v 2020',
+        position: 'left',
+        padding: {
+            bottom: 10
+        }
     }
 });
