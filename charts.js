@@ -14,7 +14,11 @@ var totalnumbers = bb.generate({
             label: "year"
         },
         y: {
-            label: "number of fics"
+            label: "number of fics",
+            min: 0,
+            padding: {
+                bottom: 0,
+            },
         }
     },
     legend: {
@@ -312,6 +316,43 @@ var member2021 = bb.generate({
     },
     title: {
         text: 'Number of fics per member 2021',
+        position: 'left',
+    }
+});
+
+var harem2021 = bb.generate({
+    bindto: "#harem2021",
+    data: {
+        type: "bar",
+        x: "x",
+        columns: [
+            ["x", "jungkook", "seokjin", "jimin", "yoongi", "namjoon", "taehyung", "hoseok"],
+            ["2021", 719, 567, 404, 388, 376, 340, 337],
+        ],
+        labels: true,
+    },
+    bar: {
+        width: {
+            ratio: .85,
+        },
+        padding: 3,
+    },
+    axis: {
+        x: {
+            type: "category",
+        },
+        y: {
+            label: "number of fics"
+        }
+    },
+    legend: {
+        show: false,
+    },
+    tooltip: {
+        show: false,
+    },
+    title: {
+        text: 'Number of member/everyone (OT7) fics 2021',
         position: 'left',
     }
 });
