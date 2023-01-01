@@ -1,5 +1,5 @@
 var totalnumbers = bb.generate({
-    bindto: "#totalNumbers",
+    bindto: "#totalNumbers22",
     data: {
         type: "line",
         x: "x",
@@ -34,7 +34,7 @@ var totalnumbers = bb.generate({
 });
 
 var allyearschart = bb.generate({
-    bindto: "#allYearsChart",
+    bindto: "#allYearsChart22",
     data: {
         type: "line",
         x: "x",
@@ -90,7 +90,7 @@ var allyearschart = bb.generate({
 });
 
 var allyearspercentagechart = bb.generate({
-    bindto: "#allYearsPercentageChart",
+    bindto: "#allYearsPercentageChart22",
     data: {
         type: "line",
         x: "x",
@@ -146,7 +146,7 @@ var allyearspercentagechart = bb.generate({
 });
 
 var number2021chart = bb.generate({
-    bindto: "#number2021",
+    bindto: "#number2022",
     data: {
         type: "bar",
         x: "x",
@@ -188,7 +188,7 @@ var number2021chart = bb.generate({
 });
 
 var numbercomparechart = bb.generate({
-    bindto: "#numbercompare",
+    bindto: "#numbercompare22",
     data: {
         type: "bar",
         x: "x",
@@ -230,7 +230,7 @@ var numbercomparechart = bb.generate({
 });
 
 var number2021piechart = bb.generate({
-    bindto: "#numberpie2021",
+    bindto: "#numberpie2022",
     data: {
         type: "pie",
         x: "x",
@@ -271,7 +271,7 @@ var number2021piechart = bb.generate({
         padding: 1,
         label: {
             ratio: 1.2,
-            format: (value, ratio, id) => `${id}\n${(value * 100 / 42915).toFixed(1)}%`
+            format: (value, ratio, id) => `${id}\n${(value * 100 / 35108).toFixed(1)}%`
         }
     },
     title: {
@@ -284,7 +284,7 @@ var number2021piechart = bb.generate({
 });
 
 var member2021 = bb.generate({
-    bindto: "#member2021",
+    bindto: "#member2022",
     data: {
         type: "bar",
         x: "x",
@@ -321,7 +321,7 @@ var member2021 = bb.generate({
 });
 
 var harem2021 = bb.generate({
-    bindto: "#harem2021",
+    bindto: "#harem2022",
     data: {
         type: "bar",
         x: "x",
@@ -358,7 +358,7 @@ var harem2021 = bb.generate({
 });
 
 var ot32021 = bb.generate({
-    bindto: "#ot32021",
+    bindto: "#ot32022",
     data: {
         type: "bar",
         x: "x",
@@ -403,7 +403,7 @@ var ot32021 = bb.generate({
 });
 
 var relativegrowth = bb.generate({
-    bindto: "#relativegrowth",
+    bindto: "#relativegrowth22",
     data: {
         type: "bar",
         x: "x",
