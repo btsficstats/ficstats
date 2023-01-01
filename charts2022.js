@@ -249,13 +249,13 @@ var number2021piechart = bb.generate({
             ["taegi", 1424],
             ["namgi", 1382],
             ["minjoon", 1128],
-            ["2seok", 998],
-            ["namseok", 1018],
-            ["junghope", 989],
-            ["vope", 982],
-            ["jihope", 947],
-            ["jinmin", 841],
-            ["vmon", 834],
+            ["2seok", 890],
+            ["junghope", 845],
+            ["jihope", 785],
+            ["namseok", 763],
+            ["vope", 706],
+            ["jinmin", 703],
+            ["vmon", 670],
         ],
         labels: false,
     },
@@ -290,7 +290,7 @@ var member2021 = bb.generate({
         x: "x",
         columns: [
             ["x", "jungkook", "jimin", "taehyung", "yoongi", "seokjin", "namjoon", "hoseok"],
-            ["2021", 22285, 17597, 17059, 16834, 12648, 11677, 8276],
+            ["2021", 18127, 14128, 13359, 13150, 12648, 8730, 6301],
         ],
         labels: true,
     },
@@ -315,7 +315,7 @@ var member2021 = bb.generate({
         show: false,
     },
     title: {
-        text: 'Number of fics per member 2021',
+        text: 'Number of fics per member 2022',
         position: 'left',
     }
 });
@@ -327,7 +327,7 @@ var harem2021 = bb.generate({
         x: "x",
         columns: [
             ["x", "jungkook", "seokjin", "jimin", "yoongi", "namjoon", "taehyung", "hoseok"],
-            ["2021", 719, 567, 404, 388, 376, 340, 337],
+            ["2021", 708, 551, 404, 397, 365, 381, 326],
         ],
         labels: true,
     },
@@ -352,7 +352,7 @@ var harem2021 = bb.generate({
         show: false,
     },
     title: {
-        text: 'Number of member/everyone (OT7) fics 2021',
+        text: 'Number of member/everyone (OT7) fics 2022',
         position: 'left',
     }
 });
@@ -394,7 +394,7 @@ var ot32021 = bb.generate({
         show: false,
     },
     title: {
-        text: 'Number of ot3 fics 2021',
+        text: 'Number of ot3 fics 2022',
         position: 'left',
         padding: {
             bottom: 10
@@ -408,8 +408,8 @@ var relativegrowth = bb.generate({
         type: "bar",
         x: "x",
         columns: [
-            ["x", "taejin", "2seok", "jinkook", "yoonjin", "jinmin", "namgi", "taekook", "namkook", "namseok", "vmon", "jikook", "yoonmin", "yoonkook", "vmin", "vhope", "minjoon", "yoonseok", "junghope", "namjin", "jihope", "taegi"],
-            ["growth", 30.02, 29.09, 23.74, 16.17, 15.96, 11.15, -0.37, -2.70, -3.63, -4.10, -6.55, -7.09, -8.66, -8.89, -11.28, -12.15, -12.46, -12.85, -13.65, -15.75, -21.66]
+            ["x", "2seok", "yoonmin", "junghope", "jinmin", "yoonkook", "jihope", "taejin", "taekook", "namkook", "jinkook", "yoonjin", "vmon", "jikook", "minjoon", "namseok", "yoonseok", "namgi", "vhope", "namjin", "taegi", "vmin"],
+            ["growth", 9.02, 4.48, 4.45, 2.18, 1.63, 1.33, 1.27, -0.37, -0.46, -0.83, -1.13, -1.79, -2.86, -5.23, -8.38, -8.52, -11.5, -12.11, -13.33, -13.78, -15.39]
         ],
         order: 'asc',
         labels: true,
@@ -438,7 +438,7 @@ var relativegrowth = bb.generate({
         show: false,
     },
     title: {
-        text: 'Relative growth 2021 v 2020',
+        text: 'Relative growth 2022 v 2021',
         position: 'left',
         padding: {
             bottom: 10
