@@ -363,8 +363,8 @@ var ot32021 = bb.generate({
         type: "bar",
         x: "x",
         columns: [
-            ["x", "jimin tae jk", "yoongi hoseok jimin", "yoongi hoseok joon", "jin hoseok joon", "yoongi tae jk", "yoongi hoseok tae", "jin yoongi jk", "jin joon jk", "yoongi joon jk", "yoongi jimin jk", "jin tae jk", "jin yoongi joon", "joon jimin jk", "yoongi jimin tae", "jin yoongi hoseok", "hoseok jimin tae", "jin joon tae", "hoseok jimin jk", "jin jimin tae", "joon jimin tae", "yoongi joon jimin", "hoseok tae jk", "joon tae jk", "jin yoongi tae", "jin hoseok jk", "jin joon jimin", "jin jimin jk", "jin hoseok tae", "yoongi hoseok jk", "jin yoongi jimin", "jin hoseok jimin", "hoseok joon jk", "hoseok joon tae", "yoongi joon tae", "hoseok joon jimin"],
-            ["2021", 397, 139, 115, 118, 86, 63, 51, 70, 97, 95, 73, 73, 62, 61, 61, 54, 53, 51, 50, 47, 46, 45, 42, 42, 41, 40, 39, 37, 35, 33, 30, 26, 21, 18, 17],
+            ["x", "jimin tae jk", "yoongi hoseok jimin", "yoongi hoseok joon", "jin joon jk", "yoongi joon jk", "jin hoseok joon", "jin tae jk", "jin yoongi jk", "yoongi jimin jk", "yoongi tae jk", "jin yoongi hoseok", "jin joon tae", "yoongi hoseok tae", "yoongi jimin tae", "jin yoongi joon", "jin yoongi tae", "yoongi hoseok jk", "joon jimin jk", "jin jimin tae", "hoseok jimin tae", "hoseok jimin jk", "joon tae jk", "jin joon jimin", "jin jimin jk", "jin yoongi jimin", "jin hoseok jimin", "yoongi joon jimin", "hoseok tae jk", "jin hoseok jk", "joon jimin tae", "hoseok joon jk", "jin hoseok tae", "hoseok joon jimin", "yoongi joon tae", "hoseok joon tae"],
+            ["2022",397,139,115,93,93,86,79,70,69,63,55,54,51,50,47,44,42,41,40,39,38,37,37,36,35,35,33,31,30,28,23,22,19,18,13],
         ],
         order: 'asc',
         labels: true,
