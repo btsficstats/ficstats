@@ -364,7 +364,7 @@ var ot32021 = bb.generate({
         x: "x",
         columns: [
             ["x", "jimin tae jk", "yoongi hoseok jimin", "yoongi hoseok joon", "jin hoseok joon", "yoongi tae jk", "yoongi hoseok tae", "jin yoongi jk", "jin joon jk", "yoongi joon jk", "yoongi jimin jk", "jin tae jk", "jin yoongi joon", "joon jimin jk", "yoongi jimin tae", "jin yoongi hoseok", "hoseok jimin tae", "jin joon tae", "hoseok jimin jk", "jin jimin tae", "joon jimin tae", "yoongi joon jimin", "hoseok tae jk", "joon tae jk", "jin yoongi tae", "jin hoseok jk", "jin joon jimin", "jin jimin jk", "jin hoseok tae", "yoongi hoseok jk", "jin yoongi jimin", "jin hoseok jimin", "hoseok joon jk", "hoseok joon tae", "yoongi joon tae", "hoseok joon jimin"],
-            ["2021", 631, 203, 174, 118, 106, 101, 100, 99, 97, 95, 73, 73, 62, 61, 61, 54, 53, 51, 50, 47, 46, 45, 42, 42, 41, 40, 39, 37, 35, 33, 30, 26, 21, 18, 17],
+            ["2021", 397, 139, 115, 118, 86, 63, 51, 70, 97, 95, 73, 73, 62, 61, 61, 54, 53, 51, 50, 47, 46, 45, 42, 42, 41, 40, 39, 37, 35, 33, 30, 26, 21, 18, 17],
         ],
         order: 'asc',
         labels: true,

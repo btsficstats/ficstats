@@ -19,10 +19,11 @@ a {
 }
 
 body {
-    background-color: #fcfcfc;
+    background-color: #F2E9E1;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    color: #5B6274;
 }
 
 p {
@@ -43,8 +44,6 @@ text.bb-title {
     font-size: 2.5em;
     height: 250px;
     color: white;
-    background-color: #f9c5d1;
-    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,6 +66,7 @@ text.bb-title {
     margin-bottom: 20px;
     font-size: 16px;
     color: white;
+    margin-top: 40px;
 }
 
 .menu-item {
@@ -91,6 +91,10 @@ text.bb-title {
 .container {
     width: 80%;
     margin: auto;
+    background-color: #FFFCF9;
+    padding: 40px 70px;
+    box-shadow: 0 0 6px rgb(0 0 0 / 16%), 0 0 4px rgb(0 0 0 / 12%);
+    border-radius: 10px;
 }
 
 @media screen and (min-width: 1000px) {
