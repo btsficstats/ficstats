@@ -275,7 +275,7 @@ var number2021piechart = bb.generate({
         }
     },
     title: {
-        text: 'Percentage of fics 2021',
+        text: 'Percentage of fics 2022',
         position: 'left',
         padding: {
             bottom: 10
