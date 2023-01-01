@@ -11,11 +11,12 @@ strong {
 h2 {
     padding-top: 20px;
     font-weight: 500;
+    color: #495C90;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #495C90;
 }
 
 body {
@@ -43,13 +44,12 @@ text.bb-title {
 .header {
     font-size: 2.5em;
     height: 250px;
-    color: white;
+    color: #495C90;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
     flex-direction: column;
     width: 100%;
+    margin-top: 70px;
 }
 
 .subtitle {
@@ -73,7 +73,7 @@ text.bb-title {
     margin: 0 5px;
 }
 
-.menu a:hover{
+a:hover{
     opacity: .8;
 }
 
@@ -95,6 +95,7 @@ text.bb-title {
     padding: 40px 70px;
     box-shadow: 0 0 6px rgb(0 0 0 / 16%), 0 0 4px rgb(0 0 0 / 12%);
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 1000px) {
