@@ -18,6 +18,7 @@ var totalnumbers = bb.generate({
             min: 0,
             padding: {
                 bottom: 0,
+                right: 15,
             },
         }
     },
