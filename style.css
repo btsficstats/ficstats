@@ -88,8 +88,8 @@ a:hover{
 #allYearsChart22,
 #allYearsPercentageChart22,
 #allYearsChart23,
-#allYearsPercentageChart23, {
-    min-height: ", px;
+#allYearsPercentageChart23 {
+    min-height: 700 px;
 }
 
 .container {
