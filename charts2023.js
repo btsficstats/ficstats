@@ -428,8 +428,8 @@ var relativegrowth = bb.generate({
         },
         y: {
             label: "%",
-            min: -20,
-            max: 20
+            min: -30,
+            max: 30
         }
     },
     legend: {
